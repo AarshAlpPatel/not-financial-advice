@@ -6,7 +6,3 @@ app = Flask(__name__)
 @app.route('/api/time')
 def get_current_time():
     return {'time': time.time()}
-
-@app.route('/api/hello')
-def say_hello_back():
-    return {'hello-world': 'Jai Swaminarayan'}
